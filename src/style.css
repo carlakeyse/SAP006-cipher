@@ -1,27 +1,26 @@
 * {
-    margin: 2000;
+    margin: 1000;
     padding: 0;
 
 }
 
 body{
-    /*background-image: url(./img/iStock-1141968788.jpg);
+    background-image: url(./img/iStock-1185860571-montagem-.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:top;*/
+    background-position: center;
     background-color: #F0F8FF;
     font-family: sans-serif;
     font-size: 1em;
-    color: #59429d;
-    margin-left: 36%;
+    color: #474749;
+    margin-left: 30%;
     margin-top: 2%;
-    justify-content: center;
     display: block;
 }
 
 #deslocamento{
-  padding: 0.2em;
-  margin-bottom: 1em;
+  padding: 0.4em;
+  margin-bottom: 3em;
   border: 2px solid #59429d;
   box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
   display: block;
@@ -29,22 +28,22 @@ body{
 }
 
 .label{
-  padding: 0.2em;
-  margin-bottom: 0.5em;
+  padding: 0.1em;
+  margin-bottom: 0.2em;
   display: block;
 }
-
+ 
 .texto{
   font-size: 15px;
   padding: 2em;
-  padding-left: 0.2em;
-  padding-top: 0.2em;
-  margin-bottom: 2em;
-  /*margin-left: -10em;*/
+  padding-left: 0.5em;
+  padding-top: 0.5em;
+  margin-bottom: 0.3em;
   border: 2px solid #59429d;
   box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
   border-radius: 5px;
   outline: none;
+  display: flex;
 }
 
 input.texto{
@@ -55,16 +54,14 @@ input.texto{
 .cifrado{
   font-size: 15px;
   padding: 2em;
-  padding-left: 0.2em;
-  padding-top: 0.2em;
-  margin-bottom: 1em;
-  /*margin-left: 10em;
-  margin-right: 10em;*/
+  padding-left: 0.5em;
+  padding-top: 0.5em;
+  margin-bottom: 0.3em;
   border: 2px solid #59429d;
   box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
   border-radius: 5px;
   outline: none;
-
+  display: flex;
 }
 
 .botao1{
@@ -72,25 +69,24 @@ input.texto{
   border: none;
   padding: 10px;
   margin-bottom: 2em;
-  margin-left: -1em;
   border-radius: 5px;
   color: white;
   font-size: 15px;
-
- }
+  display: flex;
+  }
 
 .botao2{
   background-color: #59429d;
   border: none;
   padding: 10px;
-  margin-bottom: 1em;
-  margin-left: 10em;
+  margin-bottom: 3em;
   border-radius: 5px;
   color: white;
   font-size: 15px;
   left: 50%;
   margin-right: -50%;
-}
+  display: flex;
+ }
 
 .botao1:hover{
   background-color: rgb(90, 30, 255);
