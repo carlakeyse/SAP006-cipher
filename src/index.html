@@ -14,35 +14,52 @@
 
   <header>
     <div id="root">
-      <h1>Mensagem Cifrada</h1>
+      <h1>Gerador de Mensagens Secretas</h1>
+      <h3>
+        Aqui você pode criptografar mensagens <br>
+        para enviar e receber informações de forma sigilosa.
+      </h3>
     </div>
   </header>
 
-<form>
-  <div class="campo1">
-    <label for="deslocamento" class="label"><strong>Deslocamento</strong></label>
-    <input type="number" id="deslocamento" name="deslocamento">
-  </div>
+  <form>
+    <div class="campo1">
+      <p>
+        Na opção "Deslocamento", escolha um número<br>que irá deslocar as letras da sua mensagem.
+      </p>
+
+      <label for="deslocamento" class="label"><strong>Deslocamento</strong></label>
+      <input type="number" id="deslocamento" name="deslocamento">
+    </div>
+
+    <label for="textcripto" class="label"><strong>Escreva sua Mensagem aqui: </strong></label>
+
+    <section>
+      <div class="botao-cifrar">
+
+        <input type="text" id="texto" value="" placeholder="Digite aqui" class="texto">
+
+        <input id="btncifrar" type="button" value="Cifrar" class="botao1" style="text-align: center;">
 
 
-  <div>
-    <br>
-    <label for="textcripto" class="label"><strong>Escreva sua mensagem: </strong></label>
-    <input type="text" id="texto" value="" placeholder="Digite aqui" class="texto">
-    <br>
-    <input type="text" id="decifrado" value="" placeholder="Resultado" class="cifrado">
+      </div>
 
-  </div>
+      <label for="textcripto" class="label"><strong>Mensagem Criptografada: </strong></label>
 
-  <div class="area-botao">
+      <div class="botao-decifrar">
 
-    <input id="btncifrar" type="button" value="Cifrar" class="botao1" style="text-align: center;">
-    <input id="btndecifrar" type="button" value="Decifrar" class="botao2" style="text-align: center;">
+        <input type="text" id="decifrado" value="" placeholder="Resultado" class="cifrado">
+        <input id="btndecifrar" type="button" value="Decifrar" class="botao2" style="text-align: center;">
 
-  </div>
+      </div>
+    </section>
 
+    <p>
+      Para Decifrar uma mensagem, é importante anotar o número da chave <br> de deslocamento que foi escolhida
+      no momento em que foi realizada a criptografia.
+    </p>
 
-</form>
+  </form>
 
 
   <script src="index.js" type="module"></script>
