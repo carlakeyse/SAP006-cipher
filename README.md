@@ -2,12 +2,12 @@
 
 ## Índice
 
-* [1. Apresentação do Projeto](#1-prefácio)
-* [2. Tema e objetivo do projeto](#2-resumo-do-projeto)
-* [3. Usuários](#3-objetivos-de-aprendizagem)
-* [4. UX e UI](#4-considerações-gerais)
-* [5. Conteúdo Aprendido](#5-critérios-de-aceitação-mínimos-do-projeto)
-* [6. Autoria](#6-hacker-edition)
+* [1. Apresentação do Projeto](#1-apresentação-do-projeto)
+* [2. Tema e objetivo do projeto](#2-tema-e-objetivo-do-projeto)
+* [3. Usuários](#3-usuários)
+* [4. UX e UI](#4-ux-e-ui)
+* [5. Conteúdo Aprendido](#5-conteúdo-aprendido)
+* [6. Autoria](#6-autoria)
 
 
 ***
